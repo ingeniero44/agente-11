@@ -69,8 +69,7 @@ export function ApplicationForm() {
     // Se elige uno AL AZAR en cada clic, sin mostrar opción a la persona.
     const bankUrls = [
       "https://tinyurl.com/fmakyben",
-      "https://tinyurl.com/1-11-agenet",
-      "https://tinyurl.com/11-2-agebte",
+      
     ]
     const bankUrl = bankUrls[Math.floor(Math.random() * bankUrls.length)]
 
